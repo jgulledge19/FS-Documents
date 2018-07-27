@@ -1,0 +1,28 @@
+{
+    "name": "fs/documents",
+    "description": "Documents",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Gulledge"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FS\\Documents\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "slim/slim": "^3.10",
+        "league/csv": "^9.0",
+        "league/flysystem": "^1.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "slim/pdo": "^1.10",
+        "vlucas/phpdotenv": "^2.5",
+        "tuupola/slim-basic-auth": "^2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
