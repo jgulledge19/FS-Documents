@@ -16,6 +16,7 @@ Using basic auth, with two users account, see public/index.php for users
 
 ## REST routes
 
+```
 GET /documents
     Will get all documents that a use can see
     Example: http://192.168.33.10/FS-Documents/public/documents?perPage=50&page=1
@@ -35,6 +36,7 @@ PUT /document/{id}
     Example: http://192.168.33.10/FS-Documents/public/document/5?name=Test 1, Update+&ints[myKey]=12349&ints[myKey3]=9012&dates[myDate]=1991-01-01 18:22:11&strings[myString]=This is only a test Update 3...
 DELETE /document/{id}
     Example: http://192.168.33.10/FS-Documents/public/document/10
+```
 
 ## DB Modal
 
